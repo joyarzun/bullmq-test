@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bullmq": "^3.14.1"
+    "bullmq": "^3.14.1",
+    "cluster": "^0.7.7"
   }
 }
