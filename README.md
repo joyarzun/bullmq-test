@@ -22,6 +22,8 @@ To see redis stats:
 
 ## Config vars
 
+At `test.js` you can change the following config:
+
 - REDIS_CONFIG: Redis config. Default to localhost on port 6379
 - WORKER_QTY: How many forked workers will consume messages
 - MESSAGES_GENERATED: How many messages will be generated
