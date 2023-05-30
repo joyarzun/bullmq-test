@@ -23,7 +23,7 @@ To see redis stats:
 ## Config vars
 
 - REDIS_CONFIG: Redis config. Default to localhost on port 6379
-- WORKER_QTY: How many fork to consume messages
-- MESSAGES_GENERATED: How many messages will generated
+- WORKER_QTY: How many forked workers will consume messages
+- MESSAGES_GENERATED: How many messages will be generated
 - MESSAGE_DELAY: How many time the message will be [delayed](https://docs.bullmq.io/guide/jobs/delayed)
-- SIMULATED_PROCESS_TIME_MS: How many time the worker consumer will simulate a busy time
+- SIMULATED_PROCESS_TIME_MS: How many time the forked workers will simulate a busy time (consumption time)
